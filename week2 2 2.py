@@ -1,0 +1,6 @@
+person = (input("받는 사람을 입력하세요"))
+address = (input("주소를 입력하세요"))
+weight = int(input("무게를 입력하세요"))
+print("받는 사람", "=", person)
+print("주소", address)
+print("배송비", weight*5)

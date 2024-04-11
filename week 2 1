@@ -1,0 +1,33 @@
+a = 100
+b = 200
+
+print(a, "+", b, "=", a+b)
+print(a, "-", b, "=", a-b)
+print(a, "*", b, "=", a*b)
+print(a, "/", b, "=", a/b)
+
+
+# 여기서 부터 수업 내용
+c = a+b
+d = a-b
+e = a*b
+f = a/b
+
+print(f'{a} + {b} = {c}')
+print(f'{a} + {b} = {c}')
+print(f'{a} + {b} = {c}')
+print(f'{a} + {b} = {c}')
+
+# 정수 : integer(int) 12345   - 4byte
+# 실수 : floating (float), double      5.4 etc  4, 8 byte
+# python double doesnt use only float - 8byte
+
+
+# 문자
+# 문자 : character(char)  - 1,2 byte
+# 문자열 : string(str)   - ?byte
+# 문자열 + 문자열 :
+# 문자열 * 자연수 : repeat
+# reserved word 변수명에 예약어 불가능
+# 변수명을 썼는데 색이 파란색이면 안된다
+
